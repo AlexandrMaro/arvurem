@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Arvurem</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" /> -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <a name="main"></a>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark oleg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Arvurem</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#main">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#serv">Сервисы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Галерея</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#we">О нас</a>
+              </li>
+            </ul>
+            <div class="d-flex" style="color: rgb(139, 201, 255);">
+              <p class="me-5" style="color: rgb(2, 201, 2); font-size: larger;">
+                <svg class="m-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg><a class="m-1" href="tel:6124556"
+                  style="color: rgb(2, 201, 2); font-size: larger; text-decoration: none;">612-4556</a>
+              </p>
+              <div class="me-2">
+                Пн-Пт: 10-18 <div class="vr"></div>
+                Сб: 10-14 <div class="vr"></div>
+                Вс: null
+              </div>
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./carousel/remont-1.webp" alt="comp">
+
+            <div class="container">
+              <div class="carousel-caption" style="backdrop-filter: invert(30%); border-radius: 50px;">
+                <h1 style="color: #000000;">Ремонт</h1>
+                <p style="color: #000000;">Наши специалисты в кратчайшие сроки починят Ваш ПК.</p>
+                <p><a class="btn btn-lg btn-primary" href="javascript:void(0)">Узнать больше...</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./carousel/remont-2.webp" alt="comp">
+
+            <div class="container">
+              <div class="carousel-caption" style="backdrop-filter: invert(30%); border-radius: 50px;">
+                <h1 style="color: #000000;">Сборка</h1>
+                <p style="color: #000000;">Никаких готовых сборок — все только по Вашим желаниям.</p>
+                <p><a class="btn btn-lg btn-primary" href="javascript:void(0)">Узнать больше...</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./carousel/remont-3.webp" alt="comp">
+
+            <div class="container">
+              <div class="carousel-caption" style="backdrop-filter: invert(30%); border-radius: 50px;">
+                <h1 style="color: #000000;">Апгрейд</h1>
+
+                <p style="color: #000000;">Давно задумывались об апгрейде? Самое время это осуществить.</p>
+                <p><a class="btn btn-lg btn-primary" href="javascript:void(0)">Узнать больше...</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container marketing">
+        <a name="serv"></a>
+        <div class="row">
+          <div class="col-lg-4">
+
+            <img src="./carousel/1.jfif" alt="dasdas" class="img-fluid rounded-circle shadow-lg"
+              style="height: 300px; width: 300px;">
+            <h2>Обслуживание</h2>
+            <p>Стабильная и исправная работу компьютеров, сопутствующего сетевого и периферийного оборудования, а также
+              программ и сервисов</p>
+            <p><a class="btn btn-secondary" href="javascript:void(0)">Узнать больше &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./carousel/2.webp" alt="asdasd" class="img-fluid rounded-circle shadow-lg"
+              style="height: 300px; width: 300px;">
+
+            <h2>Подбор комплектующих</h2>
+            <p>Подбор совместимых процессоров, материнских плат, видеокарт, блоков питания и других комплектующих для ПК
+            </p>
+            <p><a class="btn btn-secondary" href="javascript:void(0)">Узнать больше &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./carousel/3.webp" alt="asdafsdfsd" class="img-fluid rounded-circle shadow"
+              style="height: 300px; width: 300px;">
+            <h2>FAQ</h2>
+            <p>Интересующие Вас вопросы</p>
+            <p><a class="btn btn-secondary" href="javascript:void(0)">Узнать больше &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <a name="gallery"></a>
+        <hr class="featurette-divider">
+        <!-- Modal gallery -->
+        <section class="">
+          <!-- Section: Images -->
+          <section class="">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <div class="bg-image hover-zoom hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                  <img src="./carousel/gallery1.webp" class="gallery w-100" alt="effd"/>
+                  <a data-bs-toggle="modal" data-mdb-target="#exampleModal1">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="bg-image hover-zoom hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                  <img src="./carousel/gallery2.jpg" class="gallery w-100" alt="efsdffd"/>
+                  <a data-bs-toggle="modal" data-mdb-target="#exampleModal2">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="bg-image hover-zoom hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                  <img src="./carousel/1.webp" class="gallery w-100" alt="effdd"/>
+                  <a data-bs-toggle="modal" data-mdb-target="#exampleModal3">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Section: Modals -->
+          
+        </section>
+        <!-- Modal gallery -->
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <a name="we"></a>
+            <h2 class="featurette-heading">Почему мы</h2>
+            <p class="lead">Цель нашей команды, — сделать быстрый, качественный и недорогой ремонт компьютеров и
+              ноутбуков. Для этого мы закупаем самое лучшее оборудование, учимся и развиваемся. Оптимизируем рабочие
+              процессы и все это показываем Вам.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="shadow img-fluid" src="./carousel/about.webp" alt="" style="height: 300px; width: 500px;">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-md-5 order-md-1">
+            <h2 class="featurette-heading">Где мы</h2>
+            <p class="lead">Находимся недалеко от ТЦ Ulemiste. <br> Можно добраться автобусом №15 или на трамвае №4 <br>
+              Звоните или лучше приходите.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <div class="container-fluid">
+              <div class="map-responsive shadow">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Mainor+Tallinn"
+                  width="500" height="400"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+
+      </div><!-- /.container -->
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2022 Oleg Inc. &middot; <a href="javascript:void(0)">Privacy</a> &middot; <a
+            href="javascript:void(0)">Terms</a></p>
+      </footer>
+    </main>
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
